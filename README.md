@@ -1,6 +1,6 @@
 # Food Donation Management System
 
-A web application which is useful for management of food donation and collection activities.  
+A web application which is useful for food waste management, food donation and collection activities.  
 [View Demo](https://food-aid-aayush.herokuapp.com/)
 
 ## Table of Contents
@@ -17,9 +17,9 @@ A web application which is useful for management of food donation and collection
 - The system consists of three types of users: admins, donors and agents.
 - Admins: They control all the activities and accept/reject donations and select agents.
 - Donors: They are the driving users of the application who donate food.
-- Agents: They are responsible for collecting food from homes of food donors.
+- Agents: They are responsible for collecting food from homes of food donors and delivering to the required NGO.
 - Each user should have an account.
-- Every user also have a dashboard where they can view several things in short summary.
+- Every user also has a dashboard where they can view several things in a short summary.
 - The application provides signup, login and logout functionalities.
 
 ### Donor Features
@@ -40,7 +40,7 @@ A web application which is useful for management of food donation and collection
 
 ### Agent Features
 - Agents will receive notifications from admins to collect food from donor's homes.
-- Agents can mark their collection upon collection of food from donor's home.
+- Agents can mark their collection upon collection of food from donor's home and as well as delivery when the delivery has been done.
 - Agents can also view all those food donations which have been collected by them previously.
 - Agents can update their profile.
 
