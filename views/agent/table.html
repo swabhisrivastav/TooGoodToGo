@@ -14,8 +14,11 @@
 <th> Action </th>
 </tr>
 <tr>
-<td>    </td>
-<td>    </td>
+<% for(let i=0; i<table.length; i++) { %>
+						<tr>
+							<th scope="row"> <%= i+1 %> </th>
+<td> <%= table[i].time %>    </td>
+<td> <%= table[i].address %> </td>
 <td>    </td>
 <td> <a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
       <button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">view</button></a> 
@@ -24,42 +27,6 @@
  /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html"> 
 <button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Decline</button></a>
  </td> 
-</tr>
-<tr>
-<td>           </td>
-<td>           </td>
-<td>           </td>
-<td>  <a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-      <button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">view</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Accept</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html"> 
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Decline</button></a>
-</td>
-<tr>
-<td>    </td>
-<td>    </td>
-<td>    </td>
-<td>
- <a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-      <button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">view</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Accept</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html"> 
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Decline</button></a>
-</td>
-<tr>
-<td>    </td>
-<td>    </td>
-<td>    </td>
-<td> 
- <a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-      <button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">view</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html">
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Accept</button></a> 
- /<a href="file:C:/Users/swabhi/Dropbox/PC/Desktop/view1.html"> 
-<button onclick="doSomething()" style="background-color:#FFFFFF;color:#404040;border-radius:3px">Decline</button></a>
-</td>
 </tr>
 </table>
 </body>
