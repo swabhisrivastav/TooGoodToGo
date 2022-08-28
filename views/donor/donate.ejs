@@ -37,14 +37,14 @@
         <div class="user-details">
             <div class="input-box">
             <span class="details">Date of pickup</span>
-           <input name="donation[pickupDate]" type="date" name="dateField"/>
+           <input name="donation[pickupDate]" type="date" name="dateField" value="<%= currentUser.dateinput %>" required>/>
 
         </div>
         </br>
         <div class="user-details">
             <div class="input-box">
             <span class="details">Time of pickup</span>
-           <input name="donation[pickupTime]" type="time" onchange="onTimeChange()" id="timeInput" />
+           <input name="donation[pickupTime]" type="time" onchange="onTimeChange()" id="timeInput" value="<%= currentUser.timeinput %>" required> />
            </div>
         </br>
          
